@@ -1,5 +1,6 @@
 import React from 'react';
 import { shallow, mount } from 'enzyme';
+import "isomorphic-fetch"
 
 const Noop = (props) => { return <p>Noop</p> };
 import SearchableMovieReviewsContainer from
